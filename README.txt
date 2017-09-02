@@ -12,10 +12,10 @@ Keep track of the frequency of each word in a given \n delimited string. String 
 2. Look in the Linked List if the word already exists in it. 
 	2.1 Letters are used for determining lexicographical order.
 	2.2 For comparing the current word and the next node, if it's not the end of the word,
-    2.2.1 If the two characters are letters and in the same case, compare them directly
-    2.2.2 If the two characters are letters and of different cases, compare them by shifting upper case to lower
-    2.2.3 If they two characters are not letters, let them be
-  2.3 If letters are not available, ASCII values of the characters are used
+    	2.2.1 If the two characters are letters and in the same case, compare them directly
+    	2.2.2 If the two characters are letters and of different cases, compare them by shifting upper case to lower
+    	2.2.3 If they two characters are not letters, let them be
+  	2.3 If letters are not available, ASCII values of the characters are used
 	2.4 If letters are matched but symbols aren't, ASCII values of the symbols are used
 	2.5 If the current word is lexicographically lower than the next list item, it doesn't exist
 	2.6 If it is lexicographically equal, it exists
